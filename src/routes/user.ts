@@ -6,6 +6,6 @@ import {
 
 const router = express.Router();
 
-router.post('/search-user-dni');
+router.post('/search-user-dni', searchUserDni);
 
 export default router
